@@ -1,0 +1,22 @@
+#root {
+  width: 100%;
+  min-height: 100svh;
+  justify-content: center;
+  align-items: center;
+  background: #080808;
+  border: 0;
+}
+
+.clock {
+  color: #ff3030;
+  font-size: clamp(2rem, 7vw, 5rem);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 24px rgb(255 48 48 / 35%);
+  padding: 1.5rem 2rem;
+  border: 2px solid #ff3030;
+  border-radius: 1rem;
+  background: #111;
+  box-shadow: 0 0 36px rgb(255 48 48 / 14%);
+  text-align: center;
+}
